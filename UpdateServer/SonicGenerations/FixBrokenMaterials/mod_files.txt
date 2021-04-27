@@ -1,0 +1,8 @@
+add mod.ini
+add disk/bb/Packed/bne/bne.ar.00
+add disk/bb/Packed/bne/bne.ar.01
+add disk/bb/Packed/bne/bne.ar.02
+add disk/bb/Packed/bne/bne.arl
+add disk/bb2/Packed/pam000/pam000.ar.00
+add disk/bb2/Packed/pam000/pam000.ar.01
+add disk/bb2/Packed/pam000/pam000.arl

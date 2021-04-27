@@ -1,2 +1,2 @@
 ## English Debug Stage List v1.0
-- Initial version.
+- Initial release.
