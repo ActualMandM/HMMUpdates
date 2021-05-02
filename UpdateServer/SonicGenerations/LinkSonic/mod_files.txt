@@ -1,0 +1,8 @@
+add mod.ini
+add CodeFile.hmm
+add disk/bb2/Title.ar.00
+add disk/bb2/Title.ar.01
+add disk/bb2/Title.arl
+add disk/bb3/Sonic.ar.00
+add disk/bb3/Sonic.ar.01
+add disk/bb3/Sonic.arl
