@@ -1,9 +1,10 @@
-## Link Sonic v2.0-rc
+## Link Sonic v2.0
 - Reimported model using latest tools
+- Fixed incorrect skeleton
 - Fixed tongue having leather material
+- Fix transparency issue with chains (thanks Lady Luna!)
+- Show Link Sonic in every cutscene (thanks again Lady Luna!)
 - Transition to hub world now has Link Sonic model (thanks HyperBE32!)
-
-**A full v2.0 release will happen once I can figure out the issues going on with the chains.**
 
 ## Link Sonic v1.1.1
 - Fix upper teeth not using the proper material
