@@ -1,3 +1,6 @@
+## Link Sonic v2.1.1
+- Add support for Eggmanland's Tornado Defense stage
+
 ## Link Sonic v2.1
 - Reduce file size by a lot (thanks Skyth!)
 

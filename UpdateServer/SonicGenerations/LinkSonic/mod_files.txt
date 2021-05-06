@@ -3,6 +3,8 @@ add bb3.ini
 add LinkSonic.dll
 add #LinkSonic.ar.00
 add #LinkSonic.arl
+add #LinkSonicEGB.ar.00
+add #LinkSonicEGB.arl
 add #PBRSonic.ar.00
 add #PBRSonic.ar.01
 add #PBRSonic.ar.02
