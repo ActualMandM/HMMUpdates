@@ -1,3 +1,7 @@
+## Link Sonic v2.2
+- Remove vertex coloring on the ears
+- Higher quality eye textures (from Sonic Unleashed)
+
 ## Link Sonic v2.1.1
 - Add support for Eggmanland's Tornado Defense stage
 
