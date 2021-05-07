@@ -1,3 +1,6 @@
+## Link Sonic v2.2.1
+- Fix visible seam under certain circumstances
+
 ## Link Sonic v2.2
 - Remove vertex coloring on the ears
 - Higher quality eye textures (from Sonic Unleashed)

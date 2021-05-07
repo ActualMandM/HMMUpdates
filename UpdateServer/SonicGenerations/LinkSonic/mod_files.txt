@@ -8,6 +8,7 @@ add #LinkSonicEGB.arl
 add #PBRSonic.ar.00
 add #PBRSonic.ar.01
 add #PBRSonic.ar.02
+add #PBRSonic.ar.03
 add #PBRSonic.arl
 delete CodeFile.hmm
 delete disk/bb2/ev031.ar.00
