@@ -1,3 +1,6 @@
+## Link Sonic v2.2.2
+- Fix compatibility with specific mods
+
 ## Link Sonic v2.2.1
 - Fix visible seam under certain circumstances
 
