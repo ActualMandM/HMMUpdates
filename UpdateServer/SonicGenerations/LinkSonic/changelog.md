@@ -2,7 +2,7 @@
 - Prevent any incompatibilities caused by support for the Eggmanland mod
 
 ## Link Sonic v2.2.3
-- More compatibility fixes with specific mods
+- Fix compatibility with Colors Sonic animations
 
 ## Link Sonic v2.2.2
 - Fix compatibility with specific mods
