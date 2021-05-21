@@ -1,3 +1,6 @@
+## Link Sonic v2.2.3
+- More compatibility fixes with specific mods
+
 ## Link Sonic v2.2.2
 - Fix compatibility with specific mods
 
