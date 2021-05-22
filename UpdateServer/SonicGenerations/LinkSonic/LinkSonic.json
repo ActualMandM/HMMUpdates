@@ -1,0 +1,50 @@
+{
+    "Groups": 
+	[
+		{
+			"Name": "Appearance",
+			"DisplayName": "Appearance",
+			"Elements":
+			[
+				{
+					"Name": "TunicType",
+					"Description": [
+						"Choose the tunic that Link Sonic wears."
+					],
+					"DisplayName": "Tunic Type",
+					"Type": "TunicType",
+					"MinValue": null,
+					"MaxValue": null,
+					"DefaultValue": "0"
+				},
+			]
+		},
+	],
+	"Enums": 
+	{
+		"TunicType": 
+		[
+			{
+				"DisplayName": "Green Tunic",
+				"Value": "0"
+			},
+			{
+				"DisplayName": "Red Tunic",
+				"Value": "1"
+			},
+			{
+				"DisplayName": "Blue Tunic",
+				"Value": "2"
+			},
+			{
+				"DisplayName": "Purple Tunic",
+				"Value": "3"
+			},
+			{
+				"DisplayName": "Rainbow Tunic",
+				"Value": "4"
+			}
+		]
+	},
+    "IniFile": "LinkSonic.ini"
+}
