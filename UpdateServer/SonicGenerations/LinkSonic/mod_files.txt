@@ -9,6 +9,8 @@ add #AppearanceGreen.ar.00
 add #AppearanceGreen.arl
 add #AppearancePurple.ar.00
 add #AppearancePurple.arl
+add #AppearanceRainbow.ar.00
+add #AppearanceRainbow.arl
 add #AppearanceRed.ar.00
 add #AppearanceRed.arl
 add #LinkSonic.ar.00

@@ -1,3 +1,6 @@
+## Link Sonic v2.3.1
+- Add missing texture with rainbow tunic
+
 ## Link Sonic v2.3
 - Add customization to the tunic
  - Options available are the Four Swords palettes (Green, Blue, Red, Purple) and a rainbow option
