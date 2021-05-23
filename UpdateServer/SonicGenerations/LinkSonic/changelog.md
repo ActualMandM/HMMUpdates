@@ -12,10 +12,10 @@
 - Fix compatibility with Colors Sonic animations
 
 ## Link Sonic v2.2.2
-- Fix compatibility with specific mods
+- Fix Link Sonic not showing in vanilla stages with the PBR Shaders mod enabled
 
 ## Link Sonic v2.2.1
-- Fix visible seam under certain circumstances
+- Fix visible seam with PBR materials
 
 ## Link Sonic v2.2
 - Remove vertex coloring on the ears
@@ -26,6 +26,7 @@
 
 ## Link Sonic v2.1
 - Reduce file size by a lot (thanks Skyth!)
+- Add support for Skyth's PBR Shaders mod (thanks Lady Luna!)
 
 ## Link Sonic v2.0
 - Reimported model using latest tools
