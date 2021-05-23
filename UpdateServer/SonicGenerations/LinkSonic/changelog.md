@@ -1,3 +1,6 @@
+## Link Sonic v2.3.2
+- Reduced stutter with PBR Shaders mod
+
 ## Link Sonic v2.3.1
 - Add missing texture with rainbow tunic
 
