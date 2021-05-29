@@ -1,3 +1,6 @@
+## Link Sonic v2.3.3
+- Improved compatibility with Colors Sonic mod
+
 ## Link Sonic v2.3.2
 - Reduced stutter with PBR Shaders mod
 

@@ -15,6 +15,8 @@ add #AppearanceRed.ar.00
 add #AppearanceRed.arl
 add #LinkSonic.ar.00
 add #LinkSonic.arl
+add #LinkSonicDrift.ar.00
+add #LinkSonicDrift.arl
 add #LinkSonicEGB.ar.00
 add #LinkSonicEGB.arl
 add #PBRSonic.ar.00
