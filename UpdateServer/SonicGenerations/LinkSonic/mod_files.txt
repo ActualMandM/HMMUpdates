@@ -1,7 +1,6 @@
 add mod.ini
 add bb3.ini
 add LinkSonic.dll
-add LinkSonic.ini
 add LinkSonic.json
 add #AppearanceBlue.ar.00
 add #AppearanceBlue.arl
