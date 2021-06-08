@@ -14,8 +14,6 @@ add #AppearanceRed.ar.00
 add #AppearanceRed.arl
 add #LinkSonic.ar.00
 add #LinkSonic.arl
-add #LinkSonicDrift.ar.00
-add #LinkSonicDrift.arl
 add #LinkSonicEGB.ar.00
 add #LinkSonicEGB.arl
 add #PBRSonic.ar.00
@@ -46,4 +44,6 @@ delete disk/bb3/evSonic.arl
 delete disk/bb3/Sonic.ar.00
 delete disk/bb3/Sonic.ar.01
 delete disk/bb3/Sonic.arl
+delete #LinkSonicDrift.ar.00
+delete #LinkSonicDrift.arl
 delete #PBRSonic.ar.03
