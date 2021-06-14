@@ -3,3 +3,5 @@ add bb2.ini
 add PlayStationPrompts.dll
 add Network.ar.00
 add Network.arl
+delete #DualShock3PAM.ar.00
+delete #DualShock3PAM.arl
