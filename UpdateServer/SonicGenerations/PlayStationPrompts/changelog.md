@@ -1,3 +1,6 @@
+## PlayStation Prompts v1.4
+- Add video files for the Light Dash and Stomping tutorials.
+
 ## PlayStation Prompts v1.3
 - Swap voice clips for missions and Time Eater
 
