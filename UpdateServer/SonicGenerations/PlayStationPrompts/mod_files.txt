@@ -3,5 +3,11 @@ add bb2.ini
 add PlayStationPrompts.dll
 add Network.ar.00
 add Network.arl
+add Sound/30VCE_BLB_NP_EN.csb
+add Sound/30VCE_BLB_NP_FR.csb
+add Sound/30VCE_BLB_NP_GE.csb
+add Sound/30VCE_BLB_NP_IT.csb
+add Sound/30VCE_BLB_NP_JP.csb
+add Sound/30VCE_BLB_NP_SP.csb
 delete #DualShock3PAM.ar.00
 delete #DualShock3PAM.arl

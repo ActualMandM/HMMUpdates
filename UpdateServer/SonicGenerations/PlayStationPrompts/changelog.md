@@ -1,3 +1,6 @@
+## PlayStation Prompts v1.3
+- Swap voice clips for missions and Time Eater
+
 ## PlayStation Prompts v1.2
 - Changed texture swap method for the "You can now switch between the two Sonics." image
 
