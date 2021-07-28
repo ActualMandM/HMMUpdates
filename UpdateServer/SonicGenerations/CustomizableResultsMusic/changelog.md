@@ -1,3 +1,6 @@
+## Customizable Results Music v1.2.1
+- Correct name for *Persona*.
+
 ## Customizable Results Music v1.2
 - Add result music from the *Persona* series.
 
