@@ -98,6 +98,10 @@
         "Value": "sound_sonic-Adventure2"
       },
       {
+        "DisplayName": "Shadow the Hedgehog",
+        "Value": "sound_sonic-Shadow"
+      },
+      {
         "DisplayName": "Sonic the Hedgehog (2006)",
         "Value": "sound_sonic-2006"
       },

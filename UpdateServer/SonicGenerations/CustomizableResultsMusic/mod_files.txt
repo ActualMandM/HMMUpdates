@@ -1,3 +1,4 @@
 add mod.ini
 add mod.json
 add CustomizableResultsMusic.dll
+add sound_sonic-Shadow/SNG19_JNG/Synth/EMBB077_Round_Clear_wav.aax
