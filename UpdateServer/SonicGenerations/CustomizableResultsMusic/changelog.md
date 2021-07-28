@@ -1,3 +1,6 @@
+## Customizable Results Music v1.0
+- Increase volume of several result music.
+
 ## Customizable Results Music v1.0-rc3
 - Add *Shadow the Hedgehog* results.
 
