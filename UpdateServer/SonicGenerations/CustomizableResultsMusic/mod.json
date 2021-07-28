@@ -1,0 +1,159 @@
+{
+  "Groups": [
+    {
+      "Name": "Main",
+      "DisplayName": "Results Music",
+      "Elements": [
+        {
+          "Name": "IncludeDir0",
+          "DisplayName": "Song Choice",
+          "Type": "Songs",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": "sound_sonic-Classic"
+        },
+      ]
+    },
+    {
+      "Name": "Config",
+      "DisplayName": "Results Variant Options",
+      "Elements": [
+        {
+          "Name": "onlySRank",
+          "Description": [
+            "Only plays the S-Rank variant of the results."
+          ],
+          "DisplayName": "Only Play S-Rank Results",
+          "Type": "bool",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": false
+        },
+        {
+          "Name": "noSRank",
+          "Description": [
+            "Never play the S-Rank variant of the results."
+          ],
+          "DisplayName": "Never Play S-Rank Results",
+          "Type": "bool",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": false
+        }
+      ]
+    },
+    {
+      "Name": "Config",
+      "DisplayName": "Custom Results Options",
+      "Elements": [
+        {
+          "Name": "customDuration",
+          "Description": [
+            "How long the round clear plays for before it switches to the results."
+          ],
+          "DisplayName": "Round Clear Duration",
+          "Type": "double",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": 7.631
+        },
+        {
+          "Name": "customSingle",
+          "Description": [
+            "Only plays round clear."
+          ],
+          "DisplayName": "Only Play Round Clear",
+          "Type": "bool",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": false
+        }
+      ]
+    }
+  ],
+  "Enums": {
+    "Songs": [
+      {
+        "DisplayName": "Sonic the Hedgehog 1/2",
+        "Value": "sound_sonic-Classic"
+      },
+      {
+        "DisplayName": "Sonic the Hedgehog CD (JP)",
+        "Value": "sound_sonic-CDJP"
+      },
+      {
+        "DisplayName": "Sonic the Hedgehog CD (US)",
+        "Value": "sound_sonic-CDUS"
+      },
+      {
+        "DisplayName": "Sonic the Hedgehog 3 (& Knuckles)",
+        "Value": "sound_sonic-Knuckles"
+      },
+      {
+        "DisplayName": "Sonic Adventure",
+        "Value": "sound_sonic-Adventure"
+	  },
+      {
+        "DisplayName": "Sonic Adventure 2/Heroes",
+        "Value": "sound_sonic-Adventure2"
+      },
+      {
+        "DisplayName": "Sonic the Hedgehog (2006)",
+        "Value": "sound_sonic-2006"
+      },
+      {
+        "DisplayName": "Sonic and the Secret Rings",
+        "Value": "sound_sonic-SecretRings"
+      },
+      {
+        "DisplayName": "Sonic Unleashed",
+        "Value": "sound_sonic-Unleashed"
+      },
+      {
+        "DisplayName": "Sonic and the Black Knight",
+        "Value": "sound_sonic-BlackKnight"
+      },
+      {
+        "DisplayName": "Sonic the Hedgehog 4 (Episode 1)",
+        "Value": "sound_sonic-4Episode1"
+      },
+      {
+        "DisplayName": "Sonic Colors",
+        "Value": "sound_sonic-Colors"
+      },
+      {
+        "DisplayName": "Sonic Generations (Demo)",
+        "Value": "."
+      },
+      {
+        "DisplayName": "Sonic Generations",
+        "Value": ""
+      },
+      {
+        "DisplayName": "Sonic the Hedgehog 4 (Episode 2)",
+        "Value": "sound_sonic-4Episode2"
+      },
+	  {
+        "DisplayName": "Sonic Lost World",
+        "Value": "sound_sonic-LostWorld"
+      },
+	  {
+        "DisplayName": "Sonic Mania",
+        "Value": "sound_sonic-Mania"
+      },
+	  {
+        "DisplayName": "Sonic Forces",
+        "Value": "sound_sonic-Forces"
+      },
+	  {
+        "DisplayName": "Sonic Robo Blast 2 (v2.2)",
+        "Value": "sound_SRB2-22"
+      },
+	  {
+        "DisplayName": "Custom",
+        "Value": "sound_Custom"
+      }
+    ]
+  },
+  "IniFile": "mod.ini"
+}
