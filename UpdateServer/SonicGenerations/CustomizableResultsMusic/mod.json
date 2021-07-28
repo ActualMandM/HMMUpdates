@@ -90,6 +90,10 @@
         "Value": "sound_sonic-Knuckles"
       },
       {
+        "DisplayName": "Sonic R",
+        "Value": "sound_sonic-R"
+	  },
+      {
         "DisplayName": "Sonic Adventure",
         "Value": "sound_sonic-Adventure"
 	  },

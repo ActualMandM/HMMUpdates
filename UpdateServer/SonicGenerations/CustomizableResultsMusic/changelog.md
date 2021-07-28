@@ -1,3 +1,6 @@
+## Customizable Results Music v1.1
+- Add *Sonic R* results.
+
 ## Customizable Results Music v1.0
 - Increase volume of several result music.
 
