@@ -1,3 +1,6 @@
+## Customizable Results Music v1.2
+- Add result music from the *Persona* series.
+
 ## Customizable Results Music v1.1
 - Add *Sonic R* results.
 

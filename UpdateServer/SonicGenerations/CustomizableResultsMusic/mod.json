@@ -158,6 +158,30 @@
         "Value": "sound_SRB2-22"
       },
 	  {
+        "DisplayName": "Revelations: Persona",
+        "Value": "sound_persona-1"
+      },
+	  {
+        "DisplayName": "Persona 2: Innocent Sin",
+        "Value": "sound_persona-2IS"
+      },
+	  {
+        "DisplayName": "Persona 2: Eternal Punishment",
+        "Value": "sound_persona-2EP"
+      },
+	  {
+        "DisplayName": "Persona 3 (FES)",
+        "Value": "sound_persona-3"
+      },
+	  {
+        "DisplayName": "Persona 4 (Golden)",
+        "Value": "sound_persona-4"
+      },
+	  {
+        "DisplayName": "Persona 5 (Royal)",
+        "Value": "sound_persona-5"
+      },
+	  {
         "DisplayName": "Custom",
         "Value": "sound_Custom"
       }
