@@ -1,0 +1,276 @@
+{
+  "IniFile": "CRM.ini",
+  "Groups": [
+    {
+      "Name": "Config",
+      "DisplayName": "Global Options",
+      "Elements": [
+        {
+          "Name": "ResultOptionClassic",
+          "Description": [
+            "The type of results that will play for Classic Sonic."
+          ],
+          "DisplayName": "Results (Classic)",
+          "Type": "Songs",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": "-1"
+        },
+        {
+          "Name": "ResultOptionModern",
+          "Description": [
+            "The type of results that will play for Modern Sonic."
+          ],
+          "DisplayName": "Results (Modern)",
+          "Type": "Songs",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": "-1"
+        },
+        {
+          "Name": "SRankType",
+          "Description": [
+            "Change the behavior of S-Rank results music playback.\nThis only affects certain results choices."
+          ],
+          "DisplayName": "S-Rank Music Behavior",
+          "Type": "SRank",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": false
+        },
+        {
+          "Name": "OnlyRoundClear",
+          "Description": [
+            "Only plays round clear.\nThis only affects certain options."
+          ],
+          "DisplayName": "Only Play Round Clear",
+          "Type": "bool",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": false
+        }
+      ]
+    },
+    {
+      "Name": "Config",
+      "DisplayName": "Custom (Slot 1) Options",
+      "Elements": [
+        {
+          "Name": "CustomOnlyRC",
+          "Description": [
+            "Only plays round clear.\nThis only works when you choose the custom slot 1 option."
+          ],
+          "DisplayName": "Only Play Round Clear",
+          "Type": "bool",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": false
+        },
+        {
+          "Name": "CustomDuration",
+          "Description": [
+            "How long the round clear plays for before it switches to the results.\nThis only works when you choose the custom slot 1 option."
+          ],
+          "DisplayName": "Round Clear Duration",
+          "Type": "double",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": 7.631
+        }
+      ]
+    },
+    {
+      "Name": "Config",
+      "DisplayName": "Custom (Slot 2) Options",
+      "Elements": [
+        {
+          "Name": "Custom2OnlyRC",
+          "Description": [
+            "Only plays round clear.\nThis only works when you choose the custom slot 2 option."
+          ],
+          "DisplayName": "Only Play Round Clear",
+          "Type": "bool",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": true
+        },
+        {
+          "Name": "Custom2Duration",
+          "Description": [
+            "How long the round clear plays for before it switches to the results.\nThis only works when you choose the custom slot 2 option."
+          ],
+          "DisplayName": "Round Clear Duration",
+          "Type": "double",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": 6.1
+        }
+      ]
+    }
+  ],
+  "Enums": {
+    "Songs": [
+      {
+        "DisplayName": "Sonic the Hedgehog 1/2",
+        "Value": "1"
+      },
+      {
+        "DisplayName": "Sonic the Hedgehog CD (JP)",
+        "Value": "2"
+      },
+      {
+        "DisplayName": "Sonic the Hedgehog CD (US)",
+        "Value": "3"
+      },
+      {
+        "DisplayName": "Sonic the Hedgehog 3 (& Knuckles)",
+        "Value": "4"
+      },
+      {
+        "DisplayName": "Sonic R",
+        "Value": "5"
+	  },
+      {
+        "DisplayName": "Sonic Adventure",
+        "Value": "6"
+	  },
+      {
+        "DisplayName": "Sonic Adventure 2/Heroes",
+        "Value": "7"
+      },
+      {
+        "DisplayName": "Shadow the Hedgehog",
+        "Value": "8"
+      },
+      {
+        "DisplayName": "Sonic Rush",
+        "Value": "30"
+      },
+      {
+        "DisplayName": "Sonic the Hedgehog (2006)",
+        "Value": "9"
+      },
+      {
+        "DisplayName": "Sonic the Hedgehog (2006) (Town)",
+        "Value": "10"
+      },
+      {
+        "DisplayName": "Sonic and the Secret Rings",
+        "Value": "11"
+      },
+      {
+        "DisplayName": "Sonic Rush Adventure",
+        "Value": "31"
+      },
+      {
+        "DisplayName": "Sonic Unleashed",
+        "Value": "12"
+      },
+      {
+        "DisplayName": "Sonic Unleashed (Boss)",
+        "Value": "13"
+      },
+      {
+        "DisplayName": "Sonic and the Black Knight",
+        "Value": "14"
+      },
+      {
+        "DisplayName": "Sonic the Hedgehog 4 (Episode 1)",
+        "Value": "15"
+      },
+      {
+        "DisplayName": "Sonic Colors",
+        "Value": "16"
+      },
+      {
+        "DisplayName": "Sonic Colors (Boss)",
+        "Value": "17"
+      },
+      {
+        "DisplayName": "Sonic Generations",
+        "Value": "-1"
+      },
+      {
+        "DisplayName": "Sonic the Hedgehog 4 (Episode 2)",
+        "Value": "18"
+      },
+	  {
+        "DisplayName": "Sonic Lost World",
+        "Value": "19"
+      },
+	  {
+        "DisplayName": "Sonic Mania",
+        "Value": "20"
+      },
+	  {
+        "DisplayName": "Sonic Forces",
+        "Value": "21"
+      },
+	  {
+        "DisplayName": "Sonic Robo Blast 2 (v2.2)",
+        "Value": "22"
+      },
+	  {
+        "DisplayName": "Persona (P5 DLC)",
+        "Value": "23"
+      },
+	  {
+        "DisplayName": "Persona 2: Innocent Sin",
+        "Value": "24"
+      },
+	  {
+        "DisplayName": "Persona 2: Eternal Punishment",
+        "Value": "25"
+      },
+	  {
+        "DisplayName": "Persona 3 (FES)",
+        "Value": "26"
+      },
+	  {
+        "DisplayName": "Persona 4 (Golden)",
+        "Value": "27"
+      },
+	  {
+        "DisplayName": "Persona 5 (Royal)",
+        "Value": "28"
+      },
+	  {
+        "DisplayName": "Custom (Slot 1)",
+        "Description": [
+          "The custom option requires knowledge of creating a 48000hz AAX file."
+        ],
+        "Value": "0"
+      },
+	  {
+        "DisplayName": "Custom (Slot 2)",
+        "Description": [
+          "The custom option requires knowledge of creating a 48000hz AAX file."
+        ],
+        "Value": "29"
+      }
+    ],
+    "SRank": [
+      {
+        "DisplayName": "Default",
+        "Description": [
+          "Handle ranked music as intended. Getting an S-Rank will get an S-Rank while getting under that will play a different theme."
+        ],
+        "Value": "0"
+      },
+      {
+        "DisplayName": "Always Play S-Rank",
+        "Description": [
+          "The game will always play the S-Rank music."
+        ],
+        "Value": "1"
+      },
+      {
+        "DisplayName": "Never Play S-Rank",
+        "Description": [
+          "The game will never play the S-Rank music."
+        ],
+        "Value": "2"
+      }
+    ]
+  }
+}
