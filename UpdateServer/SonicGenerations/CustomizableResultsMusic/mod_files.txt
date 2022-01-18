@@ -1,2 +1,6 @@
 add mod.ini
 add mod.json
+delete bb3/SegaLogo.ar.00
+delete bb3/SegaLogo.arl
+delete bb3/SegaLogoJP.ar.00
+delete bb3/SegaLogoJP.arl

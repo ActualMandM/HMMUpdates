@@ -47,3 +47,7 @@ delete disk/bb3/Sonic.arl
 delete #LinkSonicDrift.ar.00
 delete #LinkSonicDrift.arl
 delete #PBRSonic.ar.03
+delete bb3/SegaLogo.ar.00
+delete bb3/SegaLogo.arl
+delete bb3/SegaLogoJP.ar.00
+delete bb3/SegaLogoJP.arl
