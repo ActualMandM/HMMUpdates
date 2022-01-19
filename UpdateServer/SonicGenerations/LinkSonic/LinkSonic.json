@@ -16,7 +16,7 @@
 					"MinValue": null,
 					"MaxValue": null,
 					"DefaultValue": "0"
-				},
+				}
 			]
 		},
 	],
@@ -26,23 +26,94 @@
 		[
 			{
 				"DisplayName": "Green Tunic",
+				"Description": [
+					"The regular tunic."
+				],
 				"Value": "0"
 			},
 			{
 				"DisplayName": "Red Tunic",
+				"Description": [
+					"A red tunic, representing one of the Four Swords."
+				],
 				"Value": "1"
 			},
 			{
 				"DisplayName": "Blue Tunic",
+				"Description": [
+					"A blue tunic, representing one of the Four Swords."
+				],
 				"Value": "2"
 			},
 			{
 				"DisplayName": "Purple Tunic",
+				"Description": [
+					"A purple tunic, representing one of the Four Swords."
+				],
 				"Value": "3"
 			},
 			{
 				"DisplayName": "Rainbow Tunic",
+				"Description": [
+					"A 'rainbow' tunic. Its constantly changing appearance is a familiarity to some Sonic fans."
+				],
 				"Value": "4"
+			},
+			{
+				"DisplayName": "'Slashed Turquoise' Tunic",
+				"Description": [
+					"A turquoise tunic."
+				],
+				"Value": "5"
+			},
+			{
+				"DisplayName": "'Bashy Purple' Tunic",
+				"Description": [
+					"A light purple tunic."
+				],
+				"Value": "6"
+			},
+			{
+				"DisplayName": "'Hexagonal Pink' Tunic",
+				"Description": [
+					"A very, very bright pink tunic. Not for the faint of heart."
+				],
+				"Value": "7"
+			},
+			{
+				"DisplayName": "Gray Tunic",
+				"Description": [
+					"A gray tunic. Might be familiar to some fighters."
+				],
+				"Value": "8"
+			},
+			{
+				"DisplayName": "Pink Tunic",
+				"Description": [
+					"A pink tunic. Might be familiar to some fighters."
+				],
+				"Value": "9"
+			},
+			{
+				"DisplayName": "Orange Tunic",
+				"Description": [
+					"A orange tunic. Might be familiar to some fighters."
+				],
+				"Value": "10"
+			},
+			{
+				"DisplayName": "Black Tunic",
+				"Description": [
+					"A black tunic. Might be familiar to some fighters."
+				],
+				"Value": "11"
+			},
+			{
+				"DisplayName": "Light Blue Tunic",
+				"Description": [
+					"A light blue tunic."
+				],
+				"Value": "12"
 			}
 		]
 	},

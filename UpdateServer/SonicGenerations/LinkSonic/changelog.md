@@ -1,3 +1,6 @@
+## Link Sonic v2.4
+- Added 8 brand new colors ('Slashed Turquoise', 'Bashy Purple', 'Hexagonal Pink', Gray, Pink, Orange, Black, and Light Blue)
+
 ## Link Sonic v2.3.4
 - Improved compatibility with Colors Sonic mod
 
