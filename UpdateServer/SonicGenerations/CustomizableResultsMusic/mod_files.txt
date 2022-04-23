@@ -1,5 +1,7 @@
 add mod.ini
 add mod.json
+add Sound/SNG19_JNG.cpk
+add Sound/SNG19_JNG.csb
 delete bb3/SegaLogo.ar.00
 delete bb3/SegaLogo.arl
 delete bb3/SegaLogoJP.ar.00
