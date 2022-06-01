@@ -1,3 +1,9 @@
+## Customizable Results Music v3.0
+- Boss clear now plays for bosses.
+- Clear music now crossfades into results.
+- Smash moved to its own entry.
+- (Hopefully) Fixed Classic getting Modern's results and vice versa.
+
 ## Customizable Results Music v2.1
 - Add *Sonic Colors (Simulator)* results.
 

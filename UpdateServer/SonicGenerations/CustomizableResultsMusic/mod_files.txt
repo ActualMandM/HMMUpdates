@@ -1,3 +1,4 @@
+add CustomizableResultsMusic.dll
 add mod.ini
 add mod.json
 add Sound/SNG19_JNG.cpk

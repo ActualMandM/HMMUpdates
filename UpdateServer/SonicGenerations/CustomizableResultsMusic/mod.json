@@ -67,6 +67,28 @@
           "DefaultValue": false
         },
         {
+          "Name": "CustomBoss",
+          "Description": [
+            "Plays a special act clear for bosses.\nThis only works when you choose the custom slot 1 option."
+          ],
+          "DisplayName": "Has Boss Clear",
+          "Type": "bool",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": false
+        },
+        {
+          "Name": "CustomERank",
+          "Description": [
+            "Plays E-Rank results with compatible mods.\nThis only works when you choose the custom slot 1 option."
+          ],
+          "DisplayName": "Has E-Rank",
+          "Type": "bool",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": false
+        },
+        {
           "Name": "CustomDuration",
           "Description": [
             "How long the round clear plays for before it switches to the results.\nThis only works when you choose the custom slot 1 option."
@@ -76,6 +98,17 @@
           "MinValue": null,
           "MaxValue": null,
           "DefaultValue": 7.631
+        },
+        {
+          "Name": "CustomCrossfade",
+          "Description": [
+            "How long the duration is for the crossfade from act clear to results.\nThis only works when you choose the custom slot 1 option."
+          ],
+          "DisplayName": "Crossfade Duration",
+          "Type": "double",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": 0.0
         }
       ]
     },
@@ -95,6 +128,28 @@
           "DefaultValue": true
         },
         {
+          "Name": "Custom2Boss",
+          "Description": [
+            "Plays a special act clear for bosses.\nThis only works when you choose the custom slot 2 option."
+          ],
+          "DisplayName": "Has Boss Clear",
+          "Type": "bool",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": false
+        },
+        {
+          "Name": "Custom2ERank",
+          "Description": [
+            "Plays E-Rank results with compatible mods.\nThis only works when you choose the custom slot 2 option."
+          ],
+          "DisplayName": "Has E-Rank",
+          "Type": "bool",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": false
+        },
+        {
           "Name": "Custom2Duration",
           "Description": [
             "How long the round clear plays for before it switches to the results.\nThis only works when you choose the custom slot 2 option."
@@ -104,6 +159,17 @@
           "MinValue": null,
           "MaxValue": null,
           "DefaultValue": 6.1
+        },
+        {
+          "Name": "Custom2Crossfade",
+          "Description": [
+            "How long the duration is for the crossfade from act clear to results.\nThis only works when you choose the custom slot 2 option."
+          ],
+          "DisplayName": "Crossfade Duration",
+          "Type": "double",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": 0.0
         }
       ]
     }
@@ -167,10 +233,6 @@
         "Value": "12"
       },
       {
-        "DisplayName": "Sonic Unleashed (Boss)",
-        "Value": "13"
-      },
-      {
         "DisplayName": "Sonic and the Black Knight",
         "Value": "14"
       },
@@ -181,10 +243,6 @@
       {
         "DisplayName": "Sonic Colors",
         "Value": "16"
-      },
-      {
-        "DisplayName": "Sonic Colors (Boss)",
-        "Value": "17"
       },
       {
         "DisplayName": "Sonic Colors (Simulator)",
@@ -238,17 +296,21 @@
         "DisplayName": "Persona 5 (Royal)",
         "Value": "28"
       },
+      {
+        "DisplayName": "Super Smash Bros.",
+        "Value": "13"
+      },
 	  {
         "DisplayName": "Custom (Slot 1)",
         "Description": [
-          "The custom option requires knowledge of creating a 48000hz AAX file."
+          "The custom option requires knowledge of creating a 48000hz AAX file.\n\nNames:\nRC_Custom\nRC_CustomBoss\nR0_Custom\nR1_Custom\nR2_Custom"
         ],
         "Value": "0"
       },
 	  {
         "DisplayName": "Custom (Slot 2)",
         "Description": [
-          "The custom option requires knowledge of creating a 48000hz AAX file."
+          "The custom option requires knowledge of creating a 48000hz AAX file.\n\nNames:\nRC_Custom2\nRC_Custom2Boss\nR0_Custom2\nR1_Custom2\nR2_Custom2"
         ],
         "Value": "29"
       }
