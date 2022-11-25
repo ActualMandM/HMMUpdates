@@ -1,4 +1,5 @@
-## Infinite v1.0.10 (unreleased)
+## Infinite v1.0.10
+- Adjusted eye textures and material.
 - Added update server.
 
 ## Infinite v1.0.9
