@@ -1,3 +1,6 @@
+## Infinite v1.0.11
+- Adjusted eye highlight texture to be more in line with how it's done in Frontiers.
+
 ## Infinite v1.0.10
 - Adjusted eye textures and material.
 - Added update server.
