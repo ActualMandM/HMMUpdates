@@ -1,3 +1,7 @@
+## Infinite v1.0.12
+- Slight adjustment to eye material.
+- Modified several text to refer to Infinite instead.
+
 ## Infinite v1.0.11
 - Adjusted eye highlight texture to be more in line with how it's done in Frontiers.
 
