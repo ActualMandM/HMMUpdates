@@ -1,3 +1,8 @@
+## Infinite v1.0.13
+- Add files to give Infinite a palette inspired by Inugami Korone.
+
+This is only available if you have the Inugami Korone Outfit DLC enabled.
+
 ## Infinite v1.0.12
 - Slight adjustment to eye material.
 - Modified several text to refer to Infinite instead.
