@@ -1,3 +1,6 @@
+## Infinite v1.0.15
+- Fix T-Posing during a Super Sonic move.
+
 ## Infinite v1.0.14
 - Modified the Inugami Korone Palette outfit to add more of her signature blue.
 
