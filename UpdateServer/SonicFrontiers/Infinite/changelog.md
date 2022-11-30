@@ -1,3 +1,6 @@
+## Infinite v1.0.14
+- Modified the Inugami Korone Palette outfit to add more of her signature blue.
+
 ## Infinite v1.0.13
 - Add files to give Infinite a palette inspired by Inugami Korone.
 
