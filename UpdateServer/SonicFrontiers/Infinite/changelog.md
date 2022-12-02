@@ -1,3 +1,6 @@
+## Infinite v1.0.17
+- Updated the Korone palette to add blue to Infinite's gloves.
+
 ## Infinite v1.0.16
 - Add text from the v1.10 update.
 
