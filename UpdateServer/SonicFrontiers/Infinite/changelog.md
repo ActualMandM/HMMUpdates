@@ -1,3 +1,6 @@
+## Infinite v1.0.16
+- Add text from the v1.10 update.
+
 ## Infinite v1.0.15
 - Fix T-Posing during a Super Sonic move.
 
