@@ -1,3 +1,8 @@
+## Infinite v1.0.18
+- Added code to disable Sonic's voice clips.
+
+This is temporary until I implement Infinite's voice clips.
+
 ## Infinite v1.0.17
 - Updated the Korone palette to add blue to Infinite's gloves.
 

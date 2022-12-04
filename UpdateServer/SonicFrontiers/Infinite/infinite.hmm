@@ -1,0 +1,11 @@
+Patch "Silent Sonic"
+{
+	/* 0x1412224C8 */
+	long instrAddr = ScanSignature
+	(
+		"sound/voice_rangers_sonic",
+		"?xxxxxxxxxxxxxxxxxxxxxxxx"
+	);
+
+	WriteProtected<byte>(instrAddr, 0);
+}

@@ -1,3 +1,4 @@
+add infinite.hmm
 add mod.ini
 add raw/character/sonic.pac
 add raw/character/supersonic.pac
