@@ -1,3 +1,6 @@
+## Infinite v1.0.19
+- Add a slight aura to Infinite's super form.
+
 ## Infinite v1.0.18
 - Added code to disable Sonic's voice clips.
 
