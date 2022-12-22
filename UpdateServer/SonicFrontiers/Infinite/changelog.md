@@ -1,3 +1,6 @@
+## Infinite v1.21
+- Add support for the Holiday Cheer Suit DLC.
+
 ## Infinite v1.20
 - Fix part of the hair being unrigged.
 - Change version numbering scheme.
