@@ -1,6 +1,7 @@
 add mod.ini
 add bb3.ini
 add LinkSonic.dll
+add LinkSonic.hmm
 add LinkSonic.json
 add #AppearanceBash.ar.00
 add #AppearanceBash.arl

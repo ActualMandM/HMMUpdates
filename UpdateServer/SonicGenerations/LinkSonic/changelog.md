@@ -1,3 +1,7 @@
+## Link Sonic v2.5
+- Made it easier to add new tunic colors to the mod
+ - Due to how this change is, the tunic color will be reverted to green when you update. Please reconfigure via HedgeModManager.
+
 ## Link Sonic v2.4
 - Added 8 brand new colors ('Slashed Turquoise', 'Bashy Purple', 'Hexagonal Pink', Gray, Pink, Orange, Black, and Light Blue)
 
