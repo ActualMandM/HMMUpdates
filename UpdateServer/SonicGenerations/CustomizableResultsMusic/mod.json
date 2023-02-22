@@ -269,6 +269,18 @@
         "Value": "21"
       },
 	  {
+        "DisplayName": "Sonic Frontiers",
+        "Value": "17"
+      },
+	  {
+        "DisplayName": "Sonic Frontiers (Quest)",
+        "Value": "33"
+      },
+	  {
+        "DisplayName": "Sonic Frontiers (Hacking)",
+        "Value": "34"
+      },
+	  {
         "DisplayName": "Sonic Robo Blast 2 (v2.2)",
         "Value": "22"
       },
@@ -295,6 +307,18 @@
 	  {
         "DisplayName": "Persona 5 (Royal)",
         "Value": "28"
+      },
+	  {
+        "DisplayName": "Project DIVA Arcade",
+        "Value": "35"
+      },
+	  {
+        "DisplayName": "Project DIVA Arcade Ver.B",
+        "Value": "36"
+      },
+	  {
+        "DisplayName": "Project DIVA Future Tone",
+        "Value": "37"
       },
       {
         "DisplayName": "Super Smash Bros.",

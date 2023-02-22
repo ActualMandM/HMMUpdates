@@ -1,3 +1,6 @@
+## Customizable Results Music v3.1
+- Add *Sonic Frontiers* and *Project DIVA* results.
+
 ## Customizable Results Music v3.0
 - Boss clear now plays for bosses.
 - Clear music now crossfades into results.
