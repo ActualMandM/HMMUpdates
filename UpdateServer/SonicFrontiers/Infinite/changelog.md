@@ -1,3 +1,6 @@
+## Infinite v1.23
+- Added support for game update v1.20.
+
 ## Infinite v1.22
 - Adjust Infinite's textures with the Holiday Cheer Suit outfit.
 
