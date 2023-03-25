@@ -2,7 +2,7 @@ Patch "dlcholo"
 {
 	uint SteamID = 1237320; // Sonic Frontiers
 
-	/* Version 1.10 */
+	/* Version 1.10/1.20 */
 
 	/* 0x140115464 */
 	long DLC110 = ScanSignature
