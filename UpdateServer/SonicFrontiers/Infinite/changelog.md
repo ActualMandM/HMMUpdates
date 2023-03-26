@@ -1,3 +1,7 @@
+## Infinite v1.24
+- Fixed being able to see through Infinite's mask.
+- Fixed old text strings still being present via HMM updates.
+
 ## Infinite v1.23
 - Added support for game update v1.20.
 
