@@ -1,0 +1,97 @@
+Patch "Extend Jukebox Song Count" by "M&M"
+{
+    byte songCount = 86; // Default is 53, maximum is 99
+
+
+    /* UI Limit */
+
+    /* 0x140964C0F */
+    long instrAddr = ScanSignature
+    (
+        "\xE8\x00\x00\x00\x00\x8B\xE8\x41\x8B\xDC\x85\xC0\x7E\x77\x0F\x1F\x00",
+        "x????xxxxxxxxxxxx"
+    );
+
+    /* 0x1408BC620 */
+    long uiCount = instrAddr + Read<int>(instrAddr + 1) + 5;
+
+    WriteProtected<byte>(uiCount + 1, songCount);
+
+    WriteProtected<byte>
+    (
+        /* 0x1408BCE90 */
+        ScanSignature
+        (
+            "\x83\xFB\x35\x7C\x9D\x48\x8B\x4C\x24\x00\x48\x8D\x05\x00\x00\x00\x00\x48\x8B\x7C\x24\x00",
+            "xxxxxxxxx?xxx????xxxx?"
+        )
+        + 2,
+
+        songCount
+    );
+
+
+    /* Text Limit */
+
+    WriteProtected<byte>
+    (
+        /* 0x1408BC639 */
+        ScanSignature
+        (
+            "\x83\xFA\x34\x77\x1F",
+            "xxxxx"
+        )
+        + 2,
+
+        (byte)(songCount - 1)
+    );
+
+
+    /* Playback Limit */
+
+    WriteProtected<byte>
+    (
+        /* 0x1408BCA15 */
+        ScanSignature
+        (
+            "\x83\xFF\x34\x0F\x87\x00\x00\x00\x00\x3B\x7B\x38\x0F\x84\x00\x00\x00\x00\x48\x89\xAC\x24\x00\x00\x00\x00\x48\x8B\xCB\x48\x89\xB4\x24\x00\x00\x00\x00",
+            "xxxxx????xxxxx????xxxx????xxxxxxx????"
+        )
+        + 2,
+
+        (byte)(songCount - 1)
+    );
+
+    WriteProtected<byte>
+    (
+        /* 0x1408BCB7F */
+        ScanSignature
+        (
+            "\x83\xFE\x34\x0F\x87\x00\x00\x00\x00\x4C\x89\xB4\x24\x00\x00\x00\x00\x8B\xC6\x48\xC1\xE8\x06\x4C\x89\x7C\x24\x00",
+            "xxxxx????xxxx????xxxxxxxxxx?"
+        )
+        + 2,
+
+        (byte)(songCount - 1)
+    );
+
+
+    /*
+        "Play in list order" Limit
+        Due to using a modulo operator, this is hardcoded to 99.
+    */
+
+    /* 0x1408BC340 */
+    instrAddr = ScanSignature
+    (
+        "\x48\x8B\xC4\x48\x83\xEC\x68\x48\x8B\x51\x10",
+        "xxxxxxxxxxx"
+    );
+
+    WriteProtected<byte>(instrAddr + 0x108, 99);
+    WriteProtected<byte>(instrAddr + 0x114, 0x7F, 0xD8, 0xBD, 0xE7);
+    WriteProtected<byte>(instrAddr + 0x126, 99);
+    WriteProtected<byte>(instrAddr + 0x14C, 0x7F, 0xD8, 0xBD, 0xE7);
+    WriteProtected<byte>(instrAddr + 0x160, 99);
+    WriteProtected<byte>(instrAddr + 0x165, 99);
+}
