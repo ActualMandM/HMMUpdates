@@ -1,3 +1,8 @@
+## Infinite v1.25
+- Fixed missing hat with the Holiday Cheer Suit.
+- Fixed Infinite's body clipping with the Holiday Cheer Suit.
+- Other possible fixes caused by using latest HedgeArcPack.
+
 ## Infinite v1.24
 - Fixed being able to see through Infinite's mask.
 - Fixed old text strings still being present via HMM updates.
