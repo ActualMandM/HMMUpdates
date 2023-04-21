@@ -1,3 +1,6 @@
+## Infinite v1.26
+- Fixed rigging bring broken under certain scenarios.
+
 ## Infinite v1.25
 - Fixed missing hat with the Holiday Cheer Suit.
 - Fixed Infinite's body clipping with the Holiday Cheer Suit.
