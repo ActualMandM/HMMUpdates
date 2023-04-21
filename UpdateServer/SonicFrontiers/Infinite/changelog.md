@@ -1,3 +1,8 @@
+## Infinite v1.27
+- Implement Cyloop color. (Thanks [Hyper](https://gamebanana.com/members/1673715)!)
+
+This method of changing the color is compatible with all physics mods.
+
 ## Infinite v1.26
 - Fixed rigging bring broken under certain scenarios.
 

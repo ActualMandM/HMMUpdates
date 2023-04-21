@@ -1,3 +1,4 @@
+add infinite.dll
 add infinite.hmm
 add mod.ini
 add raw/character/sonic.pac
