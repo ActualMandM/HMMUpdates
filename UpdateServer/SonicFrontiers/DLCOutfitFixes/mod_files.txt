@@ -1,0 +1,3 @@
+add DLCOutfitFixes.dll
+add mod.ini
+add raw/dlc/dlcholoA/dlcholoA.pac
