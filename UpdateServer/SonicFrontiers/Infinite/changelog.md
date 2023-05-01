@@ -1,3 +1,8 @@
+## Infinite v1.28
+- Re-implement text edits.
+
+This new method *should* be compatible with game updates.
+
 ## Infinite v1.27
 - Implement Cyloop color. (Thanks [Hyper](https://gamebanana.com/members/1673715)!)
 
