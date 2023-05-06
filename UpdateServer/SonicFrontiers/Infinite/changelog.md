@@ -1,3 +1,6 @@
+## Infinite v1.30
+- Improve Phantom Infinite textures.
+
 ## Infinite v1.29
 - Remade aura models for both Infinite and Phantom Infinite.
 - Remade materials for Phantom Infinite.
