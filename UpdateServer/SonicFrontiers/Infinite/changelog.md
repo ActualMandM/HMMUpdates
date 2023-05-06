@@ -1,3 +1,7 @@
+## Infinite v1.29
+- Remade aura models for both Infinite and Phantom Infinite.
+- Remade materials for Phantom Infinite.
+
 ## Infinite v1.28
 - Re-implement text edits.
 
