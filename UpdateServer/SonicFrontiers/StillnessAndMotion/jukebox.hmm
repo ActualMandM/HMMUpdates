@@ -1,6 +1,6 @@
 Patch "Extend Jukebox Song Count" by "M&M"
 {
-    byte songCount = 86; // Default is 53, maximum is 99
+    byte songCount = 87; // Default is 53, maximum is 99
 
 
     /* UI Limit */

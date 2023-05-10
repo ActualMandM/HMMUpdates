@@ -1,7 +1,10 @@
 add jukebox.hmm
 add mod.ini
+add songlist.txt
+add raw/misc/sound_common.pac
 add raw/sound/Sonic_Rangers_Sound.acf
 add raw/sound/custom_sound/bgm_custom.acb
+add raw/text/text_dlc_common_en.pac
 delete raw/text/text_dlc_common_de.pac
 delete raw/text/text_dlc_common_es.pac
 delete raw/text/text_dlc_common_fr.pac
