@@ -1,3 +1,6 @@
+## Infinite v1.31
+- Improve Phantom Ruby texture.
+
 ## Infinite v1.30
 - Improve Phantom Infinite textures.
 
