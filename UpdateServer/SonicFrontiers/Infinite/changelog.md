@@ -1,3 +1,8 @@
+## Infinite v1.32
+- Switch method of Signature Scanning.
+
+This update requires you to update HE2ModLoader to v1.1.3 via HedgeModManager.
+
 ## Infinite v1.31
 - Improve Phantom Ruby texture.
 
