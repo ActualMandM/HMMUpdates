@@ -1,3 +1,8 @@
+## DLC Outfit Fixes v1.03
+- Switch method of Signature Scanning.
+
+This update requires you to update HE2ModLoader to v1.1.3 via HedgeModManager.
+
 ## DLC Outfit Fixes v1.02
 - Made it easier to support new outfits added via game updates.
 
