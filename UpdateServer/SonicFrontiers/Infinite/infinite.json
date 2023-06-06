@@ -1,0 +1,46 @@
+{
+    "Groups": 
+	[
+		{
+			"Name": "Main",
+			"DisplayName": "Mod Configuration",
+			"Elements":
+			[
+				{
+					"Name": "Cyloop",
+					"Description": [
+						"Changes Infinite's cyloop color to match his cyloop aura."
+					],
+					"DisplayName": "Change Cyloop Color",
+					"Type": "bool",
+					"MinValue": null,
+					"MaxValue": null,
+					"DefaultValue": true
+				},
+				{
+					"Name": "Text",
+					"Description": [
+						"Changes the game's text to mention Infinite instead of Sonic."
+					],
+					"DisplayName": "Change Game Text",
+					"Type": "bool",
+					"MinValue": null,
+					"MaxValue": null,
+					"DefaultValue": true
+				},
+				{
+					"Name": "Voice",
+					"Description": [
+						"Allows Sonic's voice clips to play."
+					],
+					"DisplayName": "Play Sonic Voice Clips",
+					"Type": "bool",
+					"MinValue": null,
+					"MaxValue": null,
+					"DefaultValue": false
+				}
+			]
+		},
+	],
+    "IniFile": "infinite.ini"
+}

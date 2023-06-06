@@ -1,7 +1,12 @@
+## Infinite v1.33
+- Implement configuration support.
+
+You will be prompted to configure the mod in Hedge Mod Manager upon first boot after this update.
+
 ## Infinite v1.32
 - Switch method of Signature Scanning.
 
-This update requires you to update HE2ModLoader to v1.1.3 via HedgeModManager.
+This update requires you to update HE2ModLoader to v1.1.3 via Hedge Mod Manager.
 
 ## Infinite v1.31
 - Improve Phantom Ruby texture.

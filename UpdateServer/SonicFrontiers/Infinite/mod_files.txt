@@ -1,5 +1,5 @@
 add infinite.dll
-add infinite.hmm
+add infinite.json
 add mod.ini
 add raw/character/sonic.pac
 add raw/character/supersonic.pac
@@ -9,6 +9,7 @@ add raw/dlc/dlcholoA/dlcholoA.pac
 add raw/dlc/dlcmhr/dlcmhr_costume_airou.pac
 add raw/dlc/dlcmhr/dlcmhr_costume_hunter.pac
 add raw/dlc/dlcxmas/dlcxmas.pac
+delete infinite.hmm
 delete raw/text/text_common_en.pac
 delete raw/text/text_minigame_en.pac
 delete raw/text/text_objective_en.pac
