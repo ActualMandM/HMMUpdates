@@ -1,3 +1,5 @@
 add DLCOutfitFixes.dll
 add mod.ini
+add raw/character/sonic_birthday.pac
+add raw/character/sonic_crown.pac
 add raw/dlc/dlcholoA/dlcholoA.pac

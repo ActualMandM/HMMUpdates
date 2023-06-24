@@ -1,3 +1,6 @@
+## DLC Outfit Fixes v1.04
+- Added support for outfits added in v1.30 (Update 2).
+
 ## DLC Outfit Fixes v1.03
 - Switch method of Signature Scanning.
 
