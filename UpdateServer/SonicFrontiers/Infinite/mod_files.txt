@@ -2,6 +2,8 @@ add infinite.dll
 add infinite.json
 add mod.ini
 add raw/character/sonic.pac
+add raw/character/sonic_birthday.pac
+add raw/character/sonic_crown.pac
 add raw/character/supersonic.pac
 add raw/dlc/dlccrm/dlccrm.pac
 add raw/dlc/dlcddx/dlcddx.pac

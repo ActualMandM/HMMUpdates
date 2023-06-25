@@ -1,3 +1,9 @@
+## Infinite v1.34
+- Fixed compatibility with v1.30 (Update 2).
+- Fixed glass material.
+
+The new outfits added in this update are currently unsupported.
+
 ## Infinite v1.33
 - Implement configuration support.
 
