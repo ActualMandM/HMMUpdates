@@ -1,3 +1,6 @@
+## Sonic Outfit Fixes v1.06
+- Fixed left glove rigging on Adventurer's Gloves and Shoes. (Thanks [Jorge_SunSpirit](https://gamebanana.com/members/1474592)!)
+
 ## Sonic Outfit Fixes v1.05
 - Fixed Sonic's nose appearing on the shape model of the Rathalos outfit.
 
