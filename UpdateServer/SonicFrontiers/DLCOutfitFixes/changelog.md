@@ -1,3 +1,6 @@
+## Sonic Outfit Fixes v1.05
+- Fixed Sonic's nose appearing on the shape model of the Rathalos outfit.
+
 ## Sonic Outfit Fixes v1.04
 - Added support for outfits added in v1.30 (Update 2).
 - Renamed the mod as it's no longer just the DLC outfits.
