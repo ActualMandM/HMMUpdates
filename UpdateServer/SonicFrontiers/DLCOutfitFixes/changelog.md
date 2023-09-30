@@ -1,3 +1,6 @@
+## Sonic Outfit Fixes v1.07
+- Fixed The Final Horizon (v1.40) compatibility.
+
 ## Sonic Outfit Fixes v1.06
 - Fixed left glove rigging on Adventurer's Gloves and Shoes. (Thanks [Jorge_SunSpirit](https://gamebanana.com/members/1474592)!)
 
