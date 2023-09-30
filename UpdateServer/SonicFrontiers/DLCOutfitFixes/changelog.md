@@ -1,3 +1,7 @@
+## Sonic Outfit Fixes v1.08
+- Added support for Another Story's Super Sonic.
+- Fixed aura on the Rathalos outfit.
+
 ## Sonic Outfit Fixes v1.07
 - Fixed The Final Horizon (v1.40) compatibility.
 
