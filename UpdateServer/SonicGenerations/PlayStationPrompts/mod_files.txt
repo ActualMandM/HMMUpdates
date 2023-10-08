@@ -1,4 +1,6 @@
 add mod.ini
+add +StageGate.ar.00
+add +StageGate.arl
 add bb2.ini
 add PlayStationPrompts.dll
 add Network.ar.00
