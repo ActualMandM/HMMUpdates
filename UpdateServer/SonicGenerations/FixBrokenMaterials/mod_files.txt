@@ -1,5 +1,19 @@
 add mod.ini
-add disk/bb/Packed/bne/bne.ar.00
-add disk/bb/Packed/bne/bne.ar.01
-add disk/bb/Packed/bne/bne.ar.02
-add disk/bb/Packed/bne/bne.arl
+add disk/bb/Packed/bne/+bne.ar.00
+add disk/bb/Packed/bne/+bne.arl
+add disk/bb/Packed/cte100/+cte100.ar.00
+add disk/bb/Packed/cte100/+cte100.arl
+add disk/bb/Packed/cte102/+cte102.ar.00
+add disk/bb/Packed/cte102/+cte102.arl
+add disk/bb/Packed/cte200/+cte200.ar.00
+add disk/bb/Packed/cte200/+cte200.arl
+add disk/bb2/Packed/pam000/+pam000.ar.00
+add disk/bb2/Packed/pam000/+pam000.arl
+
+delete disk/bb/Packed/bne/bne.ar.00
+delete disk/bb/Packed/bne/bne.ar.01
+delete disk/bb/Packed/bne/bne.ar.02
+delete disk/bb/Packed/bne/bne.arl
+delete disk/bb2/Packed/pam000/pam000.ar.00
+delete disk/bb2/Packed/pam000/pam000.ar.01
+delete disk/bb2/Packed/pam000/pam000.arl
