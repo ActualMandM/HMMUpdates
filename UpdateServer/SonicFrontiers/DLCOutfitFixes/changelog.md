@@ -1,3 +1,8 @@
+## Sonic Outfit Fixes v1.09
+- Added support for Sonic's dialogue in Another Story.
+- Added configuration for additional models.
+- Improved mod stability.
+
 ## Sonic Outfit Fixes v1.08
 - Added support for Another Story's Super Sonic.
 - Fixed aura on the Rathalos outfit.

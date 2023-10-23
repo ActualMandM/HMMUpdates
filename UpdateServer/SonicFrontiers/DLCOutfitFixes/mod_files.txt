@@ -1,5 +1,7 @@
 add DLCOutfitFixes.dll
+add code.hmm
 add mod.ini
+add schema.json
 add raw/character/sonic_birthday.pac
 add raw/character/sonic_crown.pac
 add raw/dlc/dlccrm/dlccrm.pac

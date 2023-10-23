@@ -1,0 +1,46 @@
+{
+    "Groups": 
+	[
+		{
+			"Name": "Main",
+			"DisplayName": "Mod Configuration",
+			"Elements":
+			[
+				{
+					"Name": "Cyber",
+					"Description": [
+						"Allows Sonic's cyber corruption model to be replaced.\n\nOnly use if a character mod supports this."
+					],
+					"DisplayName": "Replace Cyber Corruption Model",
+					"Type": "bool",
+					"MinValue": null,
+					"MaxValue": null,
+					"DefaultValue": false
+				},
+				{
+					"Name": "Effect",
+					"Description": [
+						"Allows Super Sonic's punch and kick effects to be replaced.\n\nOnly use if a character mod supports this."
+					],
+					"DisplayName": "Replace Super Sonic Effects",
+					"Type": "bool",
+					"MinValue": null,
+					"MaxValue": null,
+					"DefaultValue": false
+				},
+				{
+					"Name": "Realtime",
+					"Description": [
+						"Allows the real-time models to be replaced.\n\nOnly use if a character mod supports this."
+					],
+					"DisplayName": "Replace Real-Time Exclusive Models",
+					"Type": "bool",
+					"MinValue": null,
+					"MaxValue": null,
+					"DefaultValue": false
+				}
+			]
+		},
+	],
+    "IniFile": "config.ini"
+}

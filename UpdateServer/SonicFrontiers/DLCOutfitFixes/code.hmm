@@ -1,0 +1,20 @@
+Patch "Always Load Outfit Data"
+//
+	#lib "Lua"
+//
+{
+	Lua.Script(
+		"""
+			LoadLevel("dlccrm")
+			LoadLevel("dlcddx")
+			LoadLevel("dlcholoA")
+			LoadLevel("dlcmhr_costume_airou")
+			LoadLevel("dlcmhr_costume_hunter")
+			LoadLevel("dlcxmas")
+			LoadLevel("sonic_birthday")
+			LoadLevel("sonic_crown")
+		""",
+
+		true
+	);
+}
