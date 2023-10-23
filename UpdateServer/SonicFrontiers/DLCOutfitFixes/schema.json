@@ -31,7 +31,7 @@
 				{
 					"Name": "Realtime",
 					"Description": [
-						"Allows the real-time models to be replaced.\n\nOnly use if a character mod supports this."
+						"Allows models that only appear in real-time versions of cutscenes to be replaced.\n\nOnly use if a character mod supports this."
 					],
 					"DisplayName": "Replace Real-Time Exclusive Models",
 					"Type": "bool",
