@@ -38,6 +38,17 @@
 					"MinValue": null,
 					"MaxValue": null,
 					"DefaultValue": false
+				},
+				{
+					"Name": "Jumpball",
+					"Description": [
+						"Allows Sonic's jumpball model to be replaced.\n\nOnly use if a character mod supports this."
+					],
+					"DisplayName": "Replace Jumpball Model",
+					"Type": "bool",
+					"MinValue": null,
+					"MaxValue": null,
+					"DefaultValue": false
 				}
 			]
 		},

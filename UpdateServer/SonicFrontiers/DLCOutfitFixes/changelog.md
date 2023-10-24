@@ -1,3 +1,6 @@
+## Sonic Outfit Fixes v1.10
+- Added configuration to replace Sonic's jumpball.
+
 ## Sonic Outfit Fixes v1.09
 - Added support for Sonic's dialogue in Another Story.
 - Added configuration for additional models.
