@@ -1,3 +1,8 @@
+## Sonic Outfit Fixes v1.11
+- Made it so other mods can configure this mod.
+- Prevented user from configuring this mod.
+- Added config option to mark mod as incompatible.
+
 ## Sonic Outfit Fixes v1.10
 - Added configuration to replace Sonic's jumpball.
 

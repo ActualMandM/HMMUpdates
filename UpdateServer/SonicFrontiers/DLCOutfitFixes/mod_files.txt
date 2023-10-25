@@ -1,7 +1,6 @@
 add DLCOutfitFixes.dll
 add code.hmm
 add mod.ini
-add schema.json
 add raw/character/sonic_birthday.pac
 add raw/character/sonic_crown.pac
 add raw/dlc/dlccrm/dlccrm.pac
@@ -10,3 +9,6 @@ add raw/dlc/dlcholoA/dlcholoA.pac
 add raw/dlc/dlcmhr/dlcmhr_costume_airou.pac
 add raw/dlc/dlcmhr/dlcmhr_costume_hunter.pac
 add raw/dlc/dlcxmas/dlcxmas.pac
+
+delete config.ini
+delete schema.json
