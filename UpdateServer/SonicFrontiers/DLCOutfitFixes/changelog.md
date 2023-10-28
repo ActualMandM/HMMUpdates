@@ -1,3 +1,6 @@
+## Sonic Outfit Fixes v1.12
+- Fixed incompatibility with the latest Hedge Mod Manager development version.
+
 ## Sonic Outfit Fixes v1.11
 - Made it so other mods can configure this mod.
 - Prevented user from configuring this mod.
@@ -31,7 +34,7 @@
 ## Sonic Outfit Fixes v1.03
 - Switch method of Signature Scanning.
 
-This update requires you to update HE2ModLoader to v1.1.3 via HedgeModManager.
+This update requires you to update HE2ModLoader to v1.1.3 via Hedge Mod Manager.
 
 ## Sonic Outfit Fixes v1.02
 - Made it easier to support new outfits added via game updates.
