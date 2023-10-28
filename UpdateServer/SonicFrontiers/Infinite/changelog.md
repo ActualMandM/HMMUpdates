@@ -1,3 +1,8 @@
+## Infinite v1.35
+- Fixed compatibility with Another Story (Update 3).
+- Fixed compatibility with certain HMM libraries.
+- Marked as incompatible with Sonic Outfit Fixes.
+
 ## Infinite v1.34
 - Fixed compatibility with v1.30 (Update 2).
 - Fixed glass material.

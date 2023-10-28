@@ -1,0 +1,201 @@
+Library "InfiniteConfig"
+{
+	#lib "INI"
+
+	public static bool isInitialised = false;
+
+	public static bool cyloop = true;
+	public static bool text = true;
+	public static bool voice = false;
+
+	[LibraryInitializer]
+	public void Init()
+	{
+		if (isInitialised)
+			return;
+
+		var mod = HMM.GetModByID("mandm.sonicfrontiers.infinite");
+		var modPath = mod.Path;
+		var configPath = System.IO.Path.Combine(modPath, "infinite.ini");
+
+		var iniData = INI.Read(configPath);
+
+		cyloop = bool.Parse(iniData["Main"]["Cyloop"]);
+		text = bool.Parse(iniData["Main"]["Text"]);
+		voice = bool.Parse(iniData["Main"]["Voice"]);
+
+		isInitialised = true;
+	}
+}
+
+
+Code "Cyloop Color"
+//
+	#lib "InfiniteConfig"
+	#lib "Player"
+
+	#include "Reflection" noemit
+
+	#lib "Reflection"
+	#lib "SonicParameters"
+
+
+	static bool _isInitialised = false;
+
+	static float luminance = 0.8f;
+	static float luminanceFlash = 0.5f;
+//
+{
+	if (!InfiniteConfig.isInitialised || _isInitialised)
+		return;
+
+	if (!InfiniteConfig.cyloop)
+	{
+		_isInitialised = true;
+		return;
+	}
+
+
+	void changeColorF(ref SonicParameters.ColorF color, float red, float green, float blue)
+	{
+		color.R = red;
+		color.G = green;
+		color.B = blue;
+	}
+
+	void changeCyloopColor(ref SonicParameters.CyloopLocusParameter locus)
+	{
+		for (int i = 0; i < locus.m_numTransparentLines; i++)
+		{
+			changeColorF(ref locus.m_transparentLines[i].m_color0, 1.0f, 0.05f, 0.05f);
+			changeColorF(ref locus.m_transparentLines[i].m_color1, 1.0f, 0.05f, 0.05f);
+
+			changeColorF(ref locus.m_transparentLines[i].m_flashColor0, 0.7f, 0.05f, 0.2f);
+			changeColorF(ref locus.m_transparentLines[i].m_flashColor1, 0.7f, 0.05f, 0.2f);
+
+			locus.m_transparentLines[i].m_luminance = luminance;
+			locus.m_transparentLines[i].m_flashLuminance = luminanceFlash;
+		}
+
+		for (int i = 0; i < locus.m_numOpaqueLines; i++)
+		{
+			changeColorF(ref locus.m_opaqueLines[i].m_color, 1.0f, 0.05f, 0.05f);
+			changeColorF(ref locus.m_opaqueLines[i].m_flashColor, 0.7f, 0.05f, 0.2f);
+		}
+
+		// m_crossline
+		{
+			changeColorF(ref locus.m_crossline.startColor, 1.0f, 0.0f, 0.0f);
+			changeColorF(ref locus.m_crossline.endColor, 0.9f, 0.1f, 0.1f);
+
+			changeColorF(ref locus.m_crossline.startColorFlash, 0.7f, 0.0f, 0.2f);
+			changeColorF(ref locus.m_crossline.endColorFlash, 0.6f, 0.1f, 0.1f);
+
+			locus.m_crossline.startColorLuminance = luminance;
+			locus.m_crossline.endColorLuminance = luminance;
+
+			locus.m_crossline.startColorLuminanceFlash = luminanceFlash;
+			locus.m_crossline.endColorLuminanceFlash = luminanceFlash;
+		}
+	}
+
+
+	var SonicParametersInfo = Reflection.GetDataInfo<SonicParameters.Root>("player_common");
+
+	if (SonicParametersInfo.pData == null)
+		return;
+
+	// TODO: Don't color cyloop when not playing as Infinite
+	if (Player.GetPlayerType() == Player.PlayerType.Sonic)
+	{
+		changeCyloopColor(ref SonicParametersInfo.pData->common.cyloop.locus);
+		changeCyloopColor(ref SonicParametersInfo.pData->common.cyloop.locusQuick);
+		changeCyloopColor(ref SonicParametersInfo.pData->common.cyloop.locusSuperSonic);
+		changeCyloopColor(ref SonicParametersInfo.pData->common.cyloop.locusSuperSonicQuick);
+	}
+	else
+	{
+		// reset colours
+	}
+}
+
+
+Code "Text Replacement"
+//
+	#lib "InfiniteConfig"
+	#lib "Converse"
+
+	static bool _isInitialised = false;
+//
+{
+	if (!InfiniteConfig.isInitialised || _isInitialised)
+		return;
+
+	if (!InfiniteConfig.text)
+		return;
+
+
+	string[] blacklist = { "boom", "adventure", "frontiers", "mvt." };
+
+	bool checkBlacklist(string in_textXml)
+	{
+		foreach (string blacklistWord in blacklist)
+		{
+			if (in_textXml.ToLower().Contains(blacklistWord))
+				return true;
+		}
+
+		return false;
+	}
+
+
+	string InfiniteNotify(string in_key, string in_textRaw, string in_textXml)
+	{
+		bool isBlacklisted = checkBlacklist(in_textXml);
+
+		if (in_textXml.Contains("Sonic") && !isBlacklisted)
+		{
+			in_textRaw = in_textRaw.Replace("Super Sonic", "Phantom Infinite");
+			in_textRaw = in_textRaw.Replace("Sonic", "Infinite");
+
+			if (in_textXml.Contains("Inugami"))
+				in_textRaw = "Inugami Korone Palette";
+		}
+
+		if (in_textXml.Contains("Rathalos"))
+			in_textRaw += " (unimplemented)";
+
+		return in_textRaw;
+	}
+
+	Converse.AddConverseNotifyAction(InfiniteNotify, true);
+
+	_isInitialised = true;
+}
+
+
+Code "Voice Removal"
+//
+	#lib "InfiniteConfig"
+
+	static bool _isInitialised = false;
+//
+{
+	if (!InfiniteConfig.isInitialised || _isInitialised)
+		return;
+
+	if (InfiniteConfig.voice)
+		return;
+
+
+	long sonicVoice = ScanSignature
+	(
+		"sound/voice_rangers_sonic",
+		"?xxxxxxxxxxxxxxxxxxxxxxxx"
+	);
+
+	if (sonicVoice != 0)
+		WriteProtected<byte>(sonicVoice, 0);
+
+	_isInitialised = true;
+}
