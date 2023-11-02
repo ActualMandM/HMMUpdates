@@ -1,3 +1,6 @@
+## Infinite v1.37
+- Fixed mod not actually working.
+
 ## Infinite v1.36
 - Ensured compatibility with future versions of Sonic Outfit Fixes.
 

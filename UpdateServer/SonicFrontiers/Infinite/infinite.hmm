@@ -1,5 +1,6 @@
 Library "InfiniteConfig"
 {
+	#lib "HMM"
 	#lib "INI"
 
 	public static bool isInitialised = false;
