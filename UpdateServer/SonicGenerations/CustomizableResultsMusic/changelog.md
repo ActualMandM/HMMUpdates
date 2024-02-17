@@ -1,3 +1,6 @@
+## Customizable Results Music v3.2
+- Add *Persona 3 Reload* results.
+
 ## Customizable Results Music v3.1
 - Add *Sonic Frontiers* and *Project DIVA* results.
 
