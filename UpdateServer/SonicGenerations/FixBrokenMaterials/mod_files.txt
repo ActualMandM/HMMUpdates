@@ -7,6 +7,8 @@ add disk/bb/Packed/cte102/+cte102.ar.00
 add disk/bb/Packed/cte102/+cte102.arl
 add disk/bb/Packed/cte200/+cte200.ar.00
 add disk/bb/Packed/cte200/+cte200.arl
+add disk/bb/Packed/ssz200/+ssz200.ar.00
+add disk/bb/Packed/ssz200/+ssz200.arl
 add disk/bb2/Packed/pam000/+pam000.ar.00
 add disk/bb2/Packed/pam000/+pam000.arl
 
