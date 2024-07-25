@@ -1,3 +1,25 @@
+Patch "Allow Friends' Party Outfits in Another Story"
+//
+	#lib "Memory"
+//
+{
+	/* v1.40: 0x1401341D8 */
+	Memory.WriteForceJump
+	(
+		/* v1.40: 0x1401341B0 */
+		Memory.ReadCall
+		(
+			/* v1.40: 0x14A69E1F5 */
+			ScanSignature
+			(
+				"\xE8\x00\x00\x00\x00\x84\xC0\x48\x8D\x0D\x00\x00\x00\x00\x48\x8D\x3D\x00\x00\x00\x00\xB2\x01\x48\x0F\x44\xCF\x0F\xB6\xF0\xE8\x00\x00\x00\x00\xB2\x01\x48\x89\x43\x38\x48\x89\xF9",
+				"x????xxxxx????xxx????xxxxxxxxxx????xxxxxxxxx"
+			)
+		)
+		+ 0x28
+	);
+}
+
 Patch "Always Load Outfit Data"
 //
 	#lib "Lua"
