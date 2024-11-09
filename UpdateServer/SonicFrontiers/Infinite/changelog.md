@@ -1,3 +1,6 @@
+## Infinite v1.38
+- Overhauled Phantom Infinite materials.
+
 ## Infinite v1.37
 - Fixed mod not actually working.
 
