@@ -1,0 +1,5 @@
+add +SystemCommon.ar.00
+add +SystemCommon.arl
+add Inspire/chara/+WhipEVRoot.ar.00
+add Inspire/chara/+WhipEVRoot.arl
+add mod.ini
